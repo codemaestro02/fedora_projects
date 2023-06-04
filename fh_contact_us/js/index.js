@@ -21,7 +21,7 @@ if (document.body.clientWidth <= 300){
     logo.parentNode.style.padding = "10px";
     
 } else {
-    logo.src = "../images/logo.png";
+    logo.src = "../images/Fedoralogo_name@2x.png";
 }
 
 

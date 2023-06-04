@@ -70,6 +70,13 @@ html, body{
     row-gap: 2.5vw;
 }
 
+.row .contact-details > div .items{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+
 .row .contact-details > div .items a{
     color: white;
     font-size: 15px;
