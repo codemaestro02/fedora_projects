@@ -12,7 +12,7 @@ html, body{
 
 .container{
     width: 100%;
-    background: url("../../images/businesswoman-consulting-legal-experts.jpg") no-repeat;
+    background: url("../images/businesswoman-consulting-legal-experts.jpg") no-repeat;
     background-size: cover;
 }
 
