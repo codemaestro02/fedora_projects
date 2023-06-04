@@ -15,7 +15,7 @@ if (document.body.clientWidth <= 700){
 }
 
 if (document.body.clientWidth <= 300){
-    logo.src = "../../fh_images/fedora_image.png";
+    logo.src = "../../images/fedora_image.png";
     logo.style.width = "50px";
     logo.parentNode.style.columnGap = "50vw";
     logo.parentNode.style.padding = "10px";
