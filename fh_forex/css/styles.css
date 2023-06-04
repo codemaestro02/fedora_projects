@@ -16,7 +16,7 @@ a{
 }
 
 .-container{
-    background-image: url("../../images/forex-wallpaper.jpg");
+    background-image: url("../../fh_images/forex-wallpaper.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -301,7 +301,7 @@ a{
 
 .webinar{
     color: white;
-    background: url("../../images/forex-wallpaper-two.jpg");
+    background: url("../../fh_images/forex-wallpaper-two.jpg");
     background-size: cover;
     background-position: center;
 }
