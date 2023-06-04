@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 100%;
+    background: url("../../images/businesswoman-consulting-legal-experts.jpg") no-repeat;
+    background-size: cover;
+}
+
+.row{
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    row-gap: 60px;
+}
+
+.row .logo{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.row .logo img{
+    width: 100%;
+    height: 80px;
+}
+
+
+.row .bold-info{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.row .bold-info h1{
+    font-size: 4rem;
+    word-wrap: break-word;
+
+}
+
+.row .contact-details{
+
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20vw;
+    align-items: center;
+
+}
+
+.row .contact-details > div{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2.5vw;
+}
+
+.row .contact-details > div .items a{
+    color: white;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width:700px) {
+    .row .logo img{
+        width: 100%;
+        height: 70px;
+    }
+
+    .row .contact-details > div .items a{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .row .logo img{
+        width: 100%;
+        height: 60px;
+    }
+
+    .row .contact-details > div .items a{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .row .logo img{
+        width: 100%;
+        height: 50px;
+    }
+
+    .row .contact-details > div .items a{
+        font-size: 12px;
+    }
+}
